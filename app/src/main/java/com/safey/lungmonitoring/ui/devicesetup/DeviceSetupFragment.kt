@@ -203,6 +203,8 @@ class DeviceSetupFragment : Fragment(), TestTypeClickListener, DeviceClickListen
         imageDevice.visibility = View.INVISIBLE
         safey_save_button.button_save.text = getString(R.string.allow)
         enabledSaveButton(false)
+
+
         recyclerViewTestType.layoutManager = GridLayoutManager(context, 2)
         deviceAdapter= DeviceAdapter(requireContext(),listDevices,this)
         recyclerViewTestType.adapter = deviceAdapter

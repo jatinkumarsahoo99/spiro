@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.Handler
+import android.util.Log
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.activityViewModels
@@ -54,6 +55,7 @@ class Splash : AppCompatActivity() {
     }
 
     private fun handleSendText(intent: Intent) {
+        Log.e("TAG",  intent.getStringExtra("FirstName").toString())
         patientData.FirstName = intent.getStringExtra("FirstName").toString()
         patientData.LastName = intent.getStringExtra("LastName").toString()
         patientData.Gender = if (intent.getStringExtra("Gender").toString().toUpperCase() == "MALE") 1 else 2
@@ -62,9 +64,12 @@ class Splash : AppCompatActivity() {
         patientData.HeightUnit = Integer.parseInt(intent.getStringExtra("HeightUnit").toString())
         patientData.BirthDate = intent.getStringExtra("BirthDate").toString().toLong()
         patientData.ethnicity =  Integer.parseInt(intent.getStringExtra("ethnicity").toString())
+        patientData.createdDate =  intent.getStringExtra("createdDate").toString()
+        patientData.createdTime =  intent.getStringExtra("createdTime").toString()
+        patientData.vendorId =  intent.getStringExtra("vendorId").toString()
         viewModel.deleteAllPatient()
         viewModel.insertPatient(patient = patientData)
-        findViewById<TextView>(R.id.test).text =   patientData.HeightUnit.toString()
+        findViewById<TextView>(R.id.test).text =   patientData.FirstName.toString()
     }
 
 }

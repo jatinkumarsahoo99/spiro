@@ -5,6 +5,7 @@ import android.app.ProgressDialog
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -813,7 +814,6 @@ class TestResultsFragment : Fragment(),IConnectionCallback, DialogStyle1Click {
             text_all.setTextColor(ContextCompat.getColor(requireContext(), R.color.white))
             return
         }
-
         if (!isAll || !isPost)
         when (testno) {
             1 -> {
@@ -3138,7 +3138,11 @@ class TestResultsFragment : Fragment(),IConnectionCallback, DialogStyle1Click {
 
                 // viewModel.upload(prepareFilePart("RedcliffeReport.pdf",fileShare.toUri()))
 
-                convertToBase64(fileShare,SafeyApplication.firstTestResult?.userId.toString())
+                convertToBase64(fileShare,SafeyApplication.firstTestResult?.userId.toString(),
+                    SafeyApplication.firstTestResult?.createdDate1.toString(),
+                    SafeyApplication.firstTestResult?.createdTime.toString(),
+                    SafeyApplication.firstTestResult?.vendorId.toString()
+                    )
 
               /*  val file = FileDataPart.from("path_to_your_file", name = "image")
                 val (_, _, result) = Fuel.upload("http://10.0.2.2:3000/test")
@@ -5218,9 +5222,13 @@ class TestResultsFragment : Fragment(),IConnectionCallback, DialogStyle1Click {
 //        }
         }
     }
-    fun convertToBase64(attachment: File,uhid:String) {
+    fun convertToBase64(attachment: File,uhid:String,date:String,time:String,vendorId:String) {
 
-        val encoder: Base64.Encoder = Base64.getEncoder()
+        val encoder: Base64.Encoder = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            Base64.getEncoder()
+        } else {
+            TODO("VERSION.SDK_INT < O")
+        }
         val encoded: String = encoder.encodeToString(attachment.readBytes() )
       /* Log.wtf("E",encoded)*/
         val current = LocalDateTime.now()
@@ -5233,7 +5241,9 @@ class TestResultsFragment : Fragment(),IConnectionCallback, DialogStyle1Click {
         mainJson.put("userId",uhid)
         mainJson.put("docName","Spiro")
         mainJson.put("docType","pdf")
-        mainJson.put("createdDt",formatted.toString())
+        mainJson.put("createdDt",date)
+        mainJson.put("createdTm",time)
+        mainJson.put("vendorId",vendorId)
         val progressDialog = ProgressDialog(context)
         progressDialog.setTitle("Please Wait")
         progressDialog.setMessage("Loading ...")
@@ -5257,7 +5267,7 @@ class TestResultsFragment : Fragment(),IConnectionCallback, DialogStyle1Click {
                     startActivity(intent)*/
                    val intent = Intent(this@TestResultsFragment.requireContext(),Dashboard::class.java)
                     startActivity(intent)
-
+                    println("Data Saved");
                   /*  (requireActivity() as Dashboard).naviGate(0)*/
 
                 }

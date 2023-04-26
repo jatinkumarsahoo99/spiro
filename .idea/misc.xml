@@ -7,47 +7,90 @@
         <entry key="../../../../../layout/custom_preview.xml" value="0.3712962962962963" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/bg_recyclerview.xml" value="0.1595" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/btn_blue_round.xml" value="0.1595" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/btn_green_round.xml" value="0.2555" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/btn_pink_round.xml" value="0.1355" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/ic_drawer.xml" value="0.1595" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/ic_fevc.xml" value="0.231" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/ic_plus_dashboard.xml" value="0.1355" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/ic_profile_round.xml" value="0.1595" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/ic_round_share.xml" value="0.1705" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/ic_spiro_tick.xml" value="0.248" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/shapesdisable.xml" value="0.231" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/share_dialogbg_round.xml" value="0.1705" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/activity_dashboard.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/activity_intro.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/activity_profile.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/activity_splash.xml" value="0.121875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/add_post_dialog.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/color_icon_item_layout.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/delete_dialog.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/dialog_delete.xml" value="0.15729166666666666" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/dialog_progress.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/dialog_share_finishtest.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/dialog_success_dashboard.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_about.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_add_medications.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_add_symptons.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_avatar_dialog_list_dialog.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_avatar_dialog_list_dialog_item.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_device_setup.xml" value="0.2" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_download.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_intro.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_legal.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_measurements.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_medications.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_reports.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_settings.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_spirometry_test.xml" value="0.121875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_take_test.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_test_complete.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_test_results.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_test_type.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_trends.xml" value="0.24479166666666666" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_trial.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/hamburger_menu.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/layout_battery.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/layout_report_testdetail.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/layout_session_quility.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/layout_test_type.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/liquidview_pretest.xml" value="0.121875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/med_icons_item_layout.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/permission_dialog.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_add_symptons.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_avatar.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_best_test_result.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_confirmation.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_dashboard.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_device_type.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_fvc_dashboard.xml" value="0.264" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_fvc_dashboard1.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_fvc_dashboard_pink.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_fvctype.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_innner_dashboard.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_measurement.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_med_frequency.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_medication_list.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_sympton_dashboard.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_test_result.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_test_result_compare.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_test_result_header.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_test_type.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_variance.xml" value="0.26875" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_cancel_button.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_finish_addpost_button.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_finish_postpdf_button.xml" value="0.23072916666666668" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_next_cancel_button.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_save_button.xml" value="0.25" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_toolbar.xml" value="0.24479166666666666" />
         <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/session_quality.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/show_calender_list.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/menu/activity_main_drawer.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/menu/dashboard.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/menu/popup_menu_ethnicity.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/menu/popup_menu_gender.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/menu/popup_menu_range.xml" value="0.26875" />
         <entry key="app/src/main/res/drawable-nodpi/flow_volume_dotted.xml" value="0.3353846153846154" />
         <entry key="app/src/main/res/drawable-nodpi/predicted_dotted.xml" value="0.3353846153846154" />
         <entry key="app/src/main/res/drawable-xhdpi/add_icon.xml" value="0.19322916666666667" />

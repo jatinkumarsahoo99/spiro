@@ -48,13 +48,15 @@
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/_24sdp"
         android:layout_marginBottom="@dimen/_16sdp"
-        app:layout_constraintBottom_toTopOf="@+id/safey_save_button"
-        tools:itemCount="2"
-        tools:listitem="@layout/row_test_type"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/safey_save_button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtmsg" />
+        app:layout_constraintTop_toBottomOf="@+id/txtmsg"
+        app:layout_constraintVertical_bias="0.0"
+        tools:itemCount="2"
+        tools:listitem="@layout/row_test_type" />
 
     <include
         android:id="@+id/safey_save_button"

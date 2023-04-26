@@ -15,7 +15,10 @@ data class Patient constructor(
     var ethnicity:Int = 0,
     var avatar : String = "",
     var HeightUnit : Int = 0,
-    var UHID :String = ""
+    var UHID :String = "",
+    var createdDate:String = "",
+    var createdTime:String = "",
+    var vendorId: String = ""
 ) {
 
     @PrimaryKey

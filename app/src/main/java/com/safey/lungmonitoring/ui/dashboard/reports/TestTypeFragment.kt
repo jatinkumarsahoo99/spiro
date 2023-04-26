@@ -30,7 +30,8 @@ class TestTypeFragment : Fragment(R.layout.fragment_test_type), TestTypeClickLis
        var reportRangeType = arguments?.getInt("reportRangeType",0)
 
         val items: List<String> = (resources.getStringArray(R.array.test_type_array).toList())
-        val myImageList = intArrayOf(R.drawable.ic_fevc, R.drawable.ic_fivc,R.drawable.ic_flow_volume_loop,R.drawable.ic_svc,R.drawable.ic_maximum_volume)
+        val myImageList = intArrayOf(R.drawable.ic_fevc, R.drawable.ic_fivc,
+            R.drawable.ic_flow_volume_loop,R.drawable.ic_svc,R.drawable.ic_maximum_volume)
 
         for (i in items.indices) {
             testTypeList.add(TestTypeModel(i,items[i],myImageList[i],i==selectedpos))
@@ -40,7 +41,6 @@ class TestTypeFragment : Fragment(R.layout.fragment_test_type), TestTypeClickLis
         recyclerViewTestType.adapter = adapter
         safey_next_cancel_button.button_Next.text= getString(R.string.next)
         safey_next_cancel_button.button_Next.setOnClickListener{
-
             if(adapter.getSelected().isNotEmpty()) {
                 selectedpos = adapter.getSelected()[0].position
                 val testType = if (adapter.getSelected()[0].position == 0)

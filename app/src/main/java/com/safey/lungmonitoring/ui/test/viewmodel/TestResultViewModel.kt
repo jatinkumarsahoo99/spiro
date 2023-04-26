@@ -115,6 +115,9 @@ class TestResultViewModel @Inject constructor(private val patientRepository: Pat
         airTestResult.height = patientData.Height
         airTestResult.age = Utility.getAge(patientData.BirthDate).toString()
         airTestResult.dob = patientData.BirthDate
+        airTestResult.createdDate1 = patientData.createdDate
+        airTestResult.createdTime = patientData.createdTime
+        airTestResult.vendorId = patientData.vendorId
 
         insertTestResult(airTestResult)
 

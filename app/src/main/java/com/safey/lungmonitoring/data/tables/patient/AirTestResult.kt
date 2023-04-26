@@ -29,7 +29,11 @@ data class AirTestResult (
     var gender:Int?=null,
     var height:String?=null,
     var dob:Long = 0L,
-    var age:String = ""
+    var age:String = "",
+    var createdDate1:String = "",
+    var createdTime:String = "",
+    var vendorId: String = ""
+
 ){
     @PrimaryKey
     @ColumnInfo(name = "testresult_guid")

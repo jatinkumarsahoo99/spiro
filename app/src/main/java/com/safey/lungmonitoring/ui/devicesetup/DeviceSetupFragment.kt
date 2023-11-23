@@ -174,7 +174,7 @@ class DeviceSetupFragment : Fragment(), TestTypeClickListener, DeviceClickListen
 
         val bluetoothManager = requireActivity().getSystemService(AppCompatActivity.BLUETOOTH_SERVICE) as BluetoothManager
         // Ensures Bluetooth is available on the device and it is enabled. If not,
-        // displays a dialog requesting user permission to enable Bluetooth.
+        // displays a dialog requesting user permission to enable Bluetooth+.
         if (bluetoothManager.adapter.isEnabled) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
                 requestMultiplePermissions.launch(arrayOf(

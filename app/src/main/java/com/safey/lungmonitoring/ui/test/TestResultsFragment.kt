@@ -5248,7 +5248,7 @@ class TestResultsFragment : Fragment(),IConnectionCallback, DialogStyle1Click {
         progressDialog.setTitle("Please Wait")
         progressDialog.setMessage("Loading ...")
         progressDialog.show()
-        Fuel.post("http://api-demo.ehealthsystem.com/nirmalyaRest/api/post-test-report-spiro").jsonBody(
+        Fuel.post("http://api.ehealthsystem.com/nirmalyaRest/api/post-test-report-spiro").jsonBody(
             mainJson.toString()
         ) .also { println(it) }
             .response {
